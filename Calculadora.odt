@@ -1,0 +1,31 @@
+Fin Funcion
+
+Funcion  c<- suma (a,b)
+	c<- a+b
+FinFuncion
+
+FinFuncion
+
+
+
+Algoritmo Calculadora
+	Leer operacion
+	Leer operacion1
+	Leer operacion2
+	Segun operacion  Hacer
+		1:
+			res<-suma (operando1, operando2)
+			Escribir  " El resultado de la suma es ", res
+		2:
+			res<-resta (operando1, operando2)
+			Escribir  " El resultado de la resta es ", res
+		3:
+			res<-multi (operando1, operando2)
+			Escribir  " El resultado de la multiplicaciones es ", res
+		4:
+			res<-div (operando1, operando2)
+			Escribir  " El resultado de la division es ", res
+		De Otro Modo:
+			Escribir  " Operacion no valida "
+	Fin Segun
+FinAlgoritmo
